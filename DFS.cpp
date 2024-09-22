@@ -13,8 +13,6 @@ void dfs(int src)
   for(auto child:v[src])
   {
      if(vis[child]==false){
-       vis[child]=true;
-
        dfs(child);
      }
 
